@@ -10,6 +10,36 @@
     
     <style>
   
+
+
+
+
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+  }
+  
+  /* 980px / 16px = 61.25em */
+  @media (max-width: 61.25em) {
+    html {
+      font-size: 58%;
+    }
+  }
+  
+  /* 460px / 16px = 28.75em */
+  @media (max-width: 28.75em) {
+    html {
+      font-size: 55%;
+    }
+  }
+
+  video {
+  max-width: 100%;
+  height: auto;
+}
+
   #header{
   display:inline;
 
@@ -142,6 +172,10 @@
   border-style:solid;
   position:relative;
   top:30px;
+  border-radius: 5px;
+  width: 150px;
+  position: relative;
+  top: 15px;
 }
 
 #last-div{
@@ -186,7 +220,7 @@
               
           
           <video id="vid" width="550" height="280" controls>
-  <source src="images\Roman Carnival Overture Op. 9 for Five Trombones.webm" type="video/mp4">
+  <source src="images\videoplayback.mp4" type="video/mp4">
   <source src="images\Roman Carnival Overture Op. 9 for Five Trombones.webm" type="video/ogg">
 </video>
                  
