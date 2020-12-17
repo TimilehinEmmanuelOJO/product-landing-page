@@ -41,20 +41,17 @@ video {
   
   }
   
-  #p{position: absolute;left: 480px;top: 100px;
+  #p{position: absolute;left: 380px;top: 100px;
   font-weight:bold;
   font-size:25px;
   }
   
-  #form{
-  position: absolute;left: 550px; top: 150px; 
-  }
   
   #email{
   width:350px;
   height:30px;
   position:absolute;
-  left: 580px;
+  left: 480px;
   top:170px;
   text-align:left;
   }
@@ -65,54 +62,54 @@ video {
   height:25px; font-weight: 800; 
   background-color: yellow;
   position:absolute;
-  left: 650px; border: 0ch;
+  left: 550px; border: 0ch;
   top:215px;text-align:center;
   display:block;
   }
   
   
   #numone1{
-  font-weight:bold;
+  font-weight:normal;
   font-size:25px;
   position: absolute;
   top:320px;
-  left:500px;
+  left:400px;
   }
   #numtwo1{
   text-align:center;
-  font-size:14px;
+  font-size:12px;
   position: absolute;;
-  left:500px;
+  left:400px;
   top:380px;
   }
   #numone2{
-  font-weight:bold;
+  font-weight:normal;
   font-size:25px;
   position: absolute;
   top:420px;
-  left:500px;
+  left:400px;
   }
   #numtwo2{
   text-align:center;
-  font-size:14px; text-align: left;
+  font-size:12px; text-align: left;
   position: absolute;;
-  left:500px;
+  left:400px;
   top:480px;
   }
   #numone3{
-  font-weight:bold;
+  font-weight:normal;
   font-size:25px;
   position: absolute;
   top:525px;
-  left:500px;
+  left:400px;
   }
   
   
   #numtwo3{
   text-align:center;
-  font-size:14px;
+  font-size:12px;
   position: absolute; text-align: left;
-  left:500px;
+  left:400px;
   top:585px;
   }
   
