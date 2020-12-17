@@ -1,76 +1,129 @@
-<style>
+
+
+video {
+  max-width: 100%;
+  height: auto;
+  }
   
   #header{
-  display:inline;
-
-}
-
-#header-img{
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 00px 180px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: antiquewhite;
+  z-index: 10;
+  }
+  
+  
+  
+  #header-img{position: relative;left: -200px;top: 20px;
   width:30%;
-  height: auto;
-}
-
-.nav-link{float: right;
+  height: auto; border-radius: 0%;
+  }
+  
+  
+  .nav-link1{position: relative; left:47%; top: 20px;
   margin-right:40px;
   margin-left:60px;
   
-}
-
-#p{
-  text-align: center;
-  font-weight:bold;
-  font-size:40px;
-}
-
-#form{
- DISPLAY:block; 
-}
-
-#email{
-  width:350px;
-  height:30px;
-  position:relative;
-  left: 500px;
-  right:500px;
-  text-align:center;
-}
-
-#submit{
-  back-ground-color:yellow;
-   width:200px;
-  height:25px;
-  position:relative;
-  left: 570px;
-  right:00px;
-  top:15px;
-  text-align:center;
-  display:block;
-}
-
-#numone{
+  }
+  
+  .nav-link2{position: relative; left:45%; top: 20px;
+  margin-right:40px;
+  margin-left:60px;
+  
+  }.nav-link3{position: relative; left:40%;top: 20px;
+  margin-right:40px;
+  margin-left:60px;
+  
+  }
+  
+  #p{position: absolute;left: 480px;top: 100px;
   font-weight:bold;
   font-size:25px;
-  position:relative;
-  top:70px;
-  left:400px;
-}
-
-#numtwo{
+  }
+  
+  #form{
+  position: absolute;left: 550px; top: 150px; 
+  }
+  
+  #email{
+  width:350px;
+  height:30px;
+  position:absolute;
+  left: 580px;
+  top:170px;
+  text-align:left;
+  }
+  
+  #submit{
+  background-color:whitesmoke;
+   width:200px;
+  height:25px; font-weight: 800; 
+  background-color: yellow;
+  position:absolute;
+  left: 650px; border: 0ch;
+  top:215px;text-align:center;
+  display:block;
+  }
+  
+  
+  #numone1{
+  font-weight:bold;
+  font-size:25px;
+  position: absolute;
+  top:320px;
+  left:500px;
+  }
+  #numtwo1{
   text-align:center;
-  font-size:18px;
-  position:relative;
-  left:400px;
-  top:50px;
-}
-
-#vid{
-  position:relative;
-  top:150px;
-  left:0px;
-}
-
-#box1{
-
+  font-size:14px;
+  position: absolute;;
+  left:500px;
+  top:380px;
+  }
+  #numone2{
+  font-weight:bold;
+  font-size:25px;
+  position: absolute;
+  top:420px;
+  left:500px;
+  }
+  #numtwo2{
+  text-align:center;
+  font-size:14px; text-align: left;
+  position: absolute;;
+  left:500px;
+  top:480px;
+  }
+  #numone3{
+  font-weight:bold;
+  font-size:25px;
+  position: absolute;
+  top:525px;
+  left:500px;
+  }
+  
+  
+  #numtwo3{
+  text-align:center;
+  font-size:14px;
+  position: absolute; text-align: left;
+  left:500px;
+  top:585px;
+  }
+  
+  #vid{
+  position: absolute;
+  top:700px;
+  left:450px;
+  }
+  
+  #box1{
+  
   background-color: transparent;
   width:250px;
   height:300px;
@@ -78,14 +131,14 @@
   border-style:solid;
   border-width:2px;
   border-color:black;
-  position:relative;
-  top:250px;
-  right:-300px;
+  position:absolute;
+  top:1100px;
+  left: 320px;
   font-size:20px;
   line-height:35px;
-}
-#box2{
-
+  }
+  #box2{
+  
   background-color: transparent;
   width:250px;
   height:300px;
@@ -93,13 +146,13 @@
   border-style:solid;
   border-width:2px;
   border-color:black;
-  position:relative;
-  top:250px;
-  right:-300px;
+  position:absolute;
+  top:1100px;
+  left: 610px;
   font-size:20px;
   line-height:35px;
-}
-#box3{
+  }
+  #box3{
   background-color: transparent;
   width:250px;
   height:300px;
@@ -107,42 +160,58 @@
   border-style:solid;
   border-width:2px;
   border-color:black;
-  position:relative;
-  top:250px;
-  right:-300px;
+  position:absolute;
+  top:1100px;
+  left:900px;
   font-size:20px;
   line-height:35px;
   
-}
-#div{
+  }
+  #div{
   display: flex;
   grid-column-gap: 40px;
   justify-self:center;
-}
-
-#div2{
+  }
+  
+  #div2{
   width:250px;
   height:50px;
   background-color:grey;
   font-size:35px;
-}
-
-#submit2{
+  }
+  
+  #submit2{
   background-color:yellow; 
   border-style:solid;
   position:relative;
   top:30px;
-}
-
-#last-div{
+  border-radius: 5px;
+  width: 150px;
+  position: relative;
+  top: 15px;
+  }
+  
+  #last-div{
   display:block;
-}
-
-#footer{
-  position:relative;
-  top:350px;
+  }
+  
+  #footer{
+  position:absolute;
+  top:1650px;
   left:1000px;
   
-}
+  }
   
-  </style>
+  #di{
+  width: 1500px; height: 1700px;
+  background-color: antiquewhite;
+  }
+  
+  
+  /*
+  @media only screen and (max-width: 600px) {
+    #di {
+      background-color: lightblue;
+    }
+  }
+  */
