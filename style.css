@@ -1,0 +1,123 @@
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+  }
+#hero > h2{
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+#hero input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  #hero input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+  }
+  
+  #hero input[type='submit']:hover {
+    background-color: rgb(66, 165, 91);
+    transition: background-color 1s;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>   
+<header >
+
+</header>
+   <p>Handcrafted, home-made masterpieces</p>
+
+   
+   <form >
+     <input type="text" placeholder="Enter your Email Address"> </form>
+     
+    <div class="btn btn-primary"><button action=" https://www.freecodecamp.com/email-submit" target="_blanck"  type="submit"> GET STARTED</button>
+    </div>
+     <p>Premium Materials</p>
+     <p1 >Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p1>
+     <p >Fast Shipping</p>
+     <p1  >We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns <br> you are not satisfied.</p1>
+     <p >Quality Assurance</p>
+     <p1 >For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of <br>your instrument.</p1>
+     
+         
+     
+     <video width="550" height="280" controls>
+<source src="images\videoplayback.mp4" type="video/mp4">
+<source src="images\Roman Carnival Overture Op. 9 for Five Trombones.webm" type="video/ogg">
+</video>
+            
+     
+     <div> 
+     
+     <div> 
+       <div>timi</div> 
+       $600<br>
+Lorem ipsum.<br>
+Lorem ipsum.<br>
+Lorem ipsum dolor.<br>
+Lorem ipsum.<br>
+       <botton type="submit">SELECT </botton>
+       </div>  
+     <div > <div id="div2">timi</div> 
+       $600<br>
+Lorem ipsum.<br>
+Lorem ipsum.<br>
+Lorem ipsum dolor.<br>
+Lorem ipsum.<br>
+       <botton type="submit">SELECT </botton> </div>
+     <div > <div id="div2">timi</div> 
+       $600<br>
+Lorem ipsum.<br>
+Lorem ipsum.<br>
+Lorem ipsum dolor.<br>
+Lorem ipsum.<br>
+       <botton  type="submit">SELECT </botton> </div>
+        
+     </div>  
+             
+     <footer >
+         <a href="pri">Privacy</a>
+       <a href="pri">Terms</a>
+       <a href="pri">Contact</a><br>
+       <a>Copyright 2016, Original Trombones</a>
+
+     </footer>
+
+   </div>
+
+
+</body>
+</html>  
