@@ -128,7 +128,7 @@
     color: #444;
   }
   
-  @media(max-width: 365px) {
+  @media(max-width: 400px) {
     #logo{
       position: relative;
       left: 150px;
@@ -157,9 +157,9 @@
     }
     .timi{margin: 40px;}
     iframe{
-    max-width: 350px;
+    max-width: 250px;
     width: 100%;
-    margin-left: 80px;
+    margin-left: 40px;
     padding-bottom: 70px;
   }
  
