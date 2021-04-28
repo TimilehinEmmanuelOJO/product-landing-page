@@ -136,14 +136,43 @@
       max-width: 350px;
       height: auto;
     }
-    #nav{
-      position: relative;
-      left: 10px;
-      padding: 0px;
-      margin: 0ch;
-      display: flex;
-      columns: ;
+    .nav-link{margin-left: -120px; display: block;}
+    #hand{margin-left: -40px;}
+    #hero input[type='email'] {
+      width: 100%;
+      margin-left: -70px;
     }
+    
+    #hero input[type='submit'] {
+      max-width: 150px;
+      width: 100%;
+      height: 30px;
+      margin: 15px 0;
+      border: 0;
+      background-color: #f1c40f;
+    }
+    span{
+      padding: 20px;
+      margin: 30px;
+    }
+    .timi{margin: 40px;}
+    iframe{
+    max-width: 350px;
+    width: 100%;
+    margin-left: 80px;
+    padding-bottom: 70px;
+  }
+ 
+  #pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+    
+
+    
   }
 
 
